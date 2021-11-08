@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.foto_detalles{
+    width:80%;
+    margin: 0 auto;
+    padding: 30px 0px 30px 0px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 0px 15px 15px;
+    
+}
+
+.detalles_de_compra{
+    width: 45%;
+    margin: 0;
+
+ }
+
+img.detalles{
+    width: 75%;
+    margin: auto;
+    display: flex;
+    border-radius: 6px;
+
+}
+
+
+.sinopsis{
+    width: 45%;
+    font-size: 10px;
+    border-color: black;
+    display: flex;
+    margin: auto;
+    text-align: justify;
+    align-items: center;
+  
+    
+}
+
+.container5{
+    display: flex;
+    margin: auto;
+    font-size: 10px;
+    width: 30%;
+    padding-top: 40px;
+    
+}
+
+img.like{
+    width: 50px;
+    height: 50px;
+    
+}
+
+.container3{
+    display: flex;
+   
+
+}
+
+.img_destacados{
+    display: flex;
+    flex-wrap: wrap; 
+    margin: auto;
+    justify-content: center;
+   
+    
+    
+}
+
+.img_destacados div{
+    padding:20px;
+}
+
+div p{
+    text-align: center;
+}
+
+.destacados{
+    flex-wrap: wrap; 
+    display: flex;
+    width: 100%;
+
+}
+
+
+.img_destacados img{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 0px 15px 15px;
+    
+}
+
+.prod_recomendados{
+    padding: 10px 0px 20px 20px;
+}
+
+
+.text_gorro, .text_mascarilla, .text_llavero, .text_conejo{
+    font-size: 15px;
+    color:white;
+    width: 80%;
+    background: #0C99FF;
+    border-radius: 8px;
+    
+}
+
+.comprar{
+    background: #0C99FF;
+    color: white;
+    height: 40px;
+    border-radius: 4px;
+    padding: 0px 0px 0px 5px;
+    display: flex;
+    align-items: center;
+    
+}
+
+
+button #boton{
+    padding: 15px;
+
+}

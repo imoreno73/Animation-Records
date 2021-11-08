@@ -1,0 +1,126 @@
+.header{
+    width: 100%;
+    height: 180px;
+    background-color: #0C99FF;
+    text-align: center;
+    padding: 2rem 0;
+    display: flex;
+  
+}
+
+.container_logo{
+    width: 55%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container_carrito{
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    
+}
+
+
+.carrito{
+    width: 30px;
+    height: 30px;
+    align-items: center;
+
+}
+.cart{
+    padding: 15px;
+
+}
+nav{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 0px 60px 0px 0px;
+
+} 
+.logo{
+    width: 100px;
+    margin: 0px 0px 0px 60px;
+    border: 1px;
+   
+}
+
+.bar-btn{
+    font-size: 25px;
+    color: white;
+    margin-right: -50px;
+    cursor: pointer;
+   
+}
+
+.nav-menu{
+    position:relative;
+    width: 40%;
+    height: 40px;
+    height: 18vh;
+    top:100px;
+    text-align: center;
+    transition: all .5s;
+} 
+
+ul .nav-menu li{
+    display: none;
+    line-height: 10px;
+    margin: 50px 0;
+    transition: all .5s;
+    color: blanchedalmond;
+    
+}
+
+.nav-menu li a{
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+#check{
+    display: none;
+}
+
+#check:checked ~ .nav-menu{
+    height: 100vh;
+}
+
+#check:checked ~ .nav-menu li{
+    display: block;
+}
+h1{
+    text-align: center;
+    color: white;
+    font-size: 24px;
+
+}
+h2{
+    text-align: center;
+    color: white;
+    font-size: 12px;
+
+}
+
+img#img_banner{
+    display: block;
+    margin: auto;
+    width: 100%;
+    max-width: 1400px;
+    padding: 13px;
+}
+
+/* img#slideshow{
+    display: block;
+    margin: auto;
+    width: 100%;
+    max-width: 1400px;
+    padding: 13px;
+} */
+
